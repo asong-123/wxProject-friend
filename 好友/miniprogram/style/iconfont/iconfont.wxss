@@ -1,0 +1,70 @@
+@font-face {
+  font-family: "iconfont"; /* Project id 2643817 */
+  src: url('//at.alicdn.com/t/font_2643817_9btralgui4w.woff2?t=1625061206124') format('woff2'),
+       url('//at.alicdn.com/t/font_2643817_9btralgui4w.woff?t=1625061206124') format('woff'),
+       url('//at.alicdn.com/t/font_2643817_9btralgui4w.ttf?t=1625061206124') format('truetype');
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-search:before {
+  content: "\e610";
+}
+
+.icon-fujinderen:before {
+  content: "\e646";
+}
+
+.icon-sousuo:before {
+  content: "\e6e3";
+}
+
+.icon-dianzan:before {
+  content: "\e63b";
+}
+
+.icon-sousuo1:before {
+  content: "\e60a";
+}
+
+.icon-shouye:before {
+  content: "\e62b";
+}
+
+.icon-dadianhua:before {
+  content: "\e601";
+}
+
+.icon-shanchu:before {
+  content: "\e614";
+}
+
+.icon-wode:before {
+  content: "\e617";
+}
+
+.icon-xiaoxi1:before {
+  content: "\e695";
+}
+
+.icon-fuzhi:before {
+  content: "\e63c";
+}
+
+.icon-biaoqiankuozhan_shouye-191:before {
+  content: "\eb39";
+}
+
+.icon-wode1:before {
+  content: "\f2a8";
+}
+
+.icon-youjiantou:before {
+  content: "\e60e";
+}

@@ -1,0 +1,22 @@
+<!--pages/user/user.wxml-->
+<view class="user">
+  <view class="user-info">
+    <image src="{{userPhoto}}" />
+    <text wx:if="{{logged}}">欢迎你：{{nickName}}</text>
+    <button disabled="{{disabled}}" wx:else open-type="getUserInfo" bindgetuserinfo="bindGetUserInfo">点击登录</button>
+  </view>
+  <view class="user-list" wx:if="{{logged}}">
+    <navigator url="../editUserInfo/editUserInfo" open-type="navigate" class="user-list-item">
+      <text>个人信息</text>
+      <text class="iconfont icon-youjiantou" ></text>
+    </navigator>
+    <navigator url="../friendList/friendList" open-type="navigate" class="user-list-item">
+      <text>好友列表</text>
+      <text class="iconfont icon-youjiantou"></text>
+    </navigator>
+    <navigator url="{{'../detail/detail?userId='+id}}" open-type="navigate"class="user-list-item">
+      <text>个人主页</text>
+      <text class="iconfont icon-youjiantou"></text>
+    </navigator>
+  </view>
+</view>

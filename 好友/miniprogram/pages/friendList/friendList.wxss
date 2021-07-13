@@ -1,0 +1,30 @@
+/* pages/friendList/friendList.wxss */
+.liebiao {
+  background-color: rgb(175, 174, 240);
+  color: white;
+  height: 80rpx;
+  line-height: 80rpx;
+}
+.liebiao text {
+  margin-left: 10rpx;
+}
+.friendList-item {
+  height: 120rpx;
+  border-bottom: 1px solid #b4b5b6;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.friendList-item image {
+  width: 100rpx;
+  height: 100rpx;
+  border-radius: 50%;
+  margin-left:10rpx;
+}
+.friendList-item text {
+  margin-left: 10rpx;
+}
+.friendList-item view {
+  display: flex;
+  align-items: center;
+}

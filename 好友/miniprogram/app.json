@@ -1,0 +1,62 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/near/near",
+    "pages/message/message",
+    "pages/user/user",
+    "pages/friendList/friendList",
+    "pages/editUserInfo/editUserInfo",
+    "pages/detail/detail",
+    "pages/editUserInfo/head/head",
+    "pages/editUserInfo/name/name",
+    "pages/editUserInfo/signature/signature",
+    "pages/editUserInfo/location/location",
+    "pages/editUserInfo/phone/phone",
+    "pages/editUserInfo/wexin/wexin",
+    "components/callPhone/callPhone"
+  ],
+  "window": {
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#937bf5",
+    "navigationBarTitleText": "交友网站",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "color": "b4b5b6",
+    "selectedColor": "1296db",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "images/icon_c3431ar52id/shouye.png",
+        "selectedIconPath": "images/icon_c3431ar52id/shouye-active.png"
+      },
+      {
+        "pagePath": "pages/near/near",
+        "text": "附近",
+        "iconPath": "images/icon_c3431ar52id/fujinderen.png",
+        "selectedIconPath": "images/icon_c3431ar52id/fujin-active.png"
+      },
+      {
+        "pagePath": "pages/message/message",
+        "text": "信息",
+        "iconPath": "images/icon_c3431ar52id/xiaoxi1.png",
+        "selectedIconPath": "images/icon_c3431ar52id/xiaoxi-active.png"
+      },
+      {
+        "pagePath": "pages/user/user",
+        "text": "我的",
+        "iconPath": "images/icon_c3431ar52id/wode.png",
+        "selectedIconPath": "images/icon_c3431ar52id/wode-active.png"
+      }
+    ]
+  },
+  "permission": {
+    "scope.userLocation": {
+      "desc":"地址授权"
+    }
+  },
+  "sitemapLocation": "sitemap.json",
+  "style": "v2"
+}

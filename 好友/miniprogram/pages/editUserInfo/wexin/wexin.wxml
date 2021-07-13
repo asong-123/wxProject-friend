@@ -1,0 +1,2 @@
+<input type="text" value="{{weixinNumber}}" bindinput="handleText"/>
+<button bindtap="handleBtn">设置完成</button>

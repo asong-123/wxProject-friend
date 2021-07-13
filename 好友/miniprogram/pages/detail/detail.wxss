@@ -1,0 +1,18 @@
+/* pages/detail/detail.wxss */
+.detail-item {
+  margin: 0 10rpx;
+  height: 80rpx;
+  border-bottom: 2rpx solid #d7d8da;
+  line-height: 100rpx;
+  display: flex;
+  align-items: center;
+}
+.detail-item-image {
+  height: 120rpx;
+}
+.detail-item-image image {
+  width: 100rpx;
+  height: 100rpx;
+  border-radius: 50%;
+  margin-right: 20rpx;
+}

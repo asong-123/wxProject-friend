@@ -1,0 +1,29 @@
+/* pages/user/user.wxss */
+.user-info {
+  display: flex;
+  align-items: center;
+  padding: 20rpx 0;
+  border-bottom: 2rpx solid #d7d8da;
+  padding-left: 10rpx;
+}
+.user-info image{
+  width: 100rpx;
+  height: 100rpx;
+  border-radius: 50%;
+  border: 1px solid rgb(117, 115, 115);
+}
+.user-info text {
+  margin-left: 20rpx;
+}
+.user-info button {
+  margin: 0;
+}
+.user-list-item {
+  margin: 0 10rpx;
+  height: 60rpx;
+  border-bottom: 2rpx solid #d7d8da;
+  padding: 10rpx;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
